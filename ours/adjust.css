@@ -23,8 +23,7 @@
 .video-container {
     position:relative;
     width: 100%;
-/*     height: calc(100vw / (1280/720) / 2); */
-    height: calc(100vw / (1280/720) );
+    height: calc(100vw / (1280/720) / 1.5);
     overflow: hidden;
     z-index: -1;
   }
@@ -32,7 +31,7 @@
   .video-container video {
     width: 100%;
     height: calc(100vw / (1280/720));
-/*     transform: translateY(-30%); */
+    transform: translateY(-10%);
   }
 
 .main-video-container {
